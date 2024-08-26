@@ -1,0 +1,53 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$tJnXfxGRHb2FHaIqHcpi4a$4bbPE3hjEJJVnW+QvD5RxfHtfTUhe6xQ4veoO+o/v+Q=",
+      "last_login": "2024-08-23T10:04:18.778Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-08-23T10:03:54.828Z",
+      "email": "admin@skypro.ru",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$ULrd3RdIT4EckYSEV26lJz$G4oGsAFBp0XP9oyXDCdZQCSiq8HDWupz1VlPBXt7m4g=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-08-25T18:47:30.178Z",
+      "email": "skypro24@test.ru",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Ho45YsZp1SW8BA8HEOEiO3$Gx4oWQMHIuoe8OKW1qG3cen9RSg7byqrOz3kySweAsw=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-08-26T14:13:01.348Z",
+      "email": "skypro2024@skypro.ru",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

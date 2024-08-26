@@ -1,0 +1,80 @@
+[
+  {
+    "model": "main.suppliernetwork",
+    "pk": 1,
+    "fields": {
+      "name": "Продавец1",
+      "email": "seller1@test.com",
+      "country": "Россия",
+      "city": "Тест",
+      "street": "Тест",
+      "house_number": "1",
+      "level": 0,
+      "supplier": null,
+      "debt_to_supplier": "0.00",
+      "created_at": "2024-08-23T10:18:55.437Z"
+    }
+  },
+  {
+    "model": "main.suppliernetwork",
+    "pk": 2,
+    "fields": {
+      "name": "Продавец2",
+      "email": "seller2@test.com",
+      "country": "Россия",
+      "city": "Тест2",
+      "street": "Тест2",
+      "house_number": "2",
+      "level": 1,
+      "supplier": null,
+      "debt_to_supplier": "0.00",
+      "created_at": "2024-08-23T10:55:22.499Z"
+    }
+  },
+  {
+    "model": "main.suppliernetwork",
+    "pk": 3,
+    "fields": {
+      "name": "Продавец3",
+      "email": "seller3@test.com",
+      "country": "Польша",
+      "city": "Тест3",
+      "street": "Тест3",
+      "house_number": "3",
+      "level": 2,
+      "supplier": 1,
+      "debt_to_supplier": "0.00",
+      "created_at": "2024-08-23T11:37:23.180Z"
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 1,
+    "fields": {
+      "network": 1,
+      "name": "Продукт 1",
+      "model": "Тестовая",
+      "release_date": "2024-08-23"
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 2,
+    "fields": {
+      "network": 2,
+      "name": "Что-то хорошее",
+      "model": "Какая-то",
+      "release_date": "2024-05-20"
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 3,
+    "fields": {
+      "network": 3,
+      "name": "Тестовый продукт",
+      "model": "Тестовая",
+      "release_date": "2024-08-26"
+    }
+  }
+]
